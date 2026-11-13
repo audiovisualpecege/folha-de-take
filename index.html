@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="noite">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#070010" />
+    <meta name="description" content="O registro dos takes no set, um produto Chiaro Filmes." />
+    <title>Folha de Take</title>
+    <link rel="icon" href="/folha-de-take/favicon.ico" sizes="48x48" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/folha-de-take/pwa-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/folha-de-take/pwa-16x16.png" />
+    <link rel="apple-touch-icon" href="/folha-de-take/apple-touch-icon-180x180.png" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Folha de Take" />
+    <!-- Primeiro quadro no tema do aparelho (Noite por padrão), antes de qualquer CSS carregar. -->
+    <script>
+      try { if (localStorage.getItem('folha-de-take:tema') === 'areia') { document.documentElement.setAttribute('data-tema', 'areia'); document.documentElement.style.colorScheme = 'light' } } catch (e) {}
+    </script>
+    <style>html{background:#0d0a14}html[data-tema=areia]{background:#f7f2ea}</style>
+    <script type="module" crossorigin src="/folha-de-take/assets/index-CKAXMU8C.js"></script>
+    <link rel="stylesheet" crossorigin href="/folha-de-take/assets/index-CxJUMs-s.css">
+  <link rel="manifest" href="/folha-de-take/manifest.webmanifest"></head>
+  <body>
+    <div id="root">
+      <div class="boot" aria-busy="true" aria-label="Carregando">
+        <img class="boot__mark" src="/folha-de-take/pwa-192x192.png" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
